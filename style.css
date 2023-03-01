@@ -1,0 +1,66 @@
+.container{
+    display: flex;
+    height: 100vh;
+    width: auto;
+    align-items: center;
+}
+.slider{
+    width: 50%;
+    z-index: 0;
+    position: relative;
+}
+.top-row{
+    display: flex;
+    height: 200px;
+    transition: 450ms ease-in-out;
+}
+.bottom-row{
+    display: flex;
+    height: 200px;
+    transition: 450ms ease-in-out;
+}
+img{
+    margin: 5px;
+    border-radius: 10px;
+}
+.buttons{
+    position: absolute;
+    display: flex;
+    z-index: 10;
+    background-color: white;
+    height: 100%;
+    flex-direction: column;
+    right: 0px;
+    top: 50%;
+    padding-left: 70px;
+}
+.buttons button{
+    border: 1px solid #134880;
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: inherit;
+    margin: 5px;
+    cursor: pointer;
+}
+.lorem-text{
+    padding: 20px;
+    z-index: 10;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: auto;
+    background-color: white;
+    margin-right: -8px;
+}
+.text-title{
+    font-size: 32px;
+    letter-spacing: -0.2px;
+    color: #134880;
+}
+.text-p{
+    color: #484A4C;
+    font-size: 18px;
+    letter-spacing: -0.2px;
+}
