@@ -58,9 +58,22 @@ img{
     font-size: 32px;
     letter-spacing: -0.2px;
     color: #134880;
+    width: 70%;
+    margin-left: 20px;
 }
 .text-p{
     color: #484A4C;
     font-size: 18px;
     letter-spacing: -0.2px;
+    width: 70%;
+    margin-left: 20px;
+}
+
+@media(max-width: 850px){
+    .container{
+        flex-direction: column;
+    }
+    .slider{
+        width: 100%;
+    }
 }
